@@ -1,6 +1,9 @@
-
+/* .completed {
+    list-style: 'https://plus.unsplash.com/premium_photo-1664201890484-a5f7109c8e56?q=80&w=376&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D';
+} */
 
 body {
+    color: rgb(88, 3, 99);
     font-family: Arial, sans-serif;
     margin: 20px;
     line-height: 1.6;
@@ -32,3 +35,26 @@ body {
 .cart-item button {
     margin-left: 10px;
 }
+
+
+button  {
+    color: rgb(48, 2, 70);
+    background-color: rgb(252, 164, 237);
+    font-weight: 550;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: right ;   
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    /* margin-bottom: auto; */
+    
+}
+
+img {
+    border-radius: 15px;
+}
+
